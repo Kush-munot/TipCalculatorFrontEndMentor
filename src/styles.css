@@ -1,0 +1,117 @@
+body {
+  font-family: "Space Mono", monospace;
+  background-color: hsl(185, 41%, 84%);
+  font-size: 24px;
+}
+.logo {
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard {
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 15%;
+}
+.content {
+  margin: 0 3% 0 3%;
+}
+
+.results {
+  margin: 2%;
+  border-radius: 30px;
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+}
+
+.res {
+  color: hsl(172, 67%, 45%);
+  font-size: 2rem;
+}
+.btnn {
+  width: 90%;
+  background-color: hsl(172, 67%, 45%);
+  border-color: hsl(172, 67%, 45%);
+}
+
+.btnn:hover {
+  color: #fff;
+  background-color: hsl(172, 67%, 45%);
+  border-color: hsl(172, 67%, 45%);
+}
+
+.btns {
+  background-color: hsl(183, 100%, 15%);
+  border-color: hsl(183, 100%, 15%);
+}
+
+.btns:hover {
+  color: #fff;
+  background-color: hsl(172, 67%, 45%);
+  border-color: hsl(172, 67%, 45%);
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  background-color: hsl(189, 41%, 97%);
+}
+button {
+  margin: 10% 6% 6% 6%;
+  background-color: hsl(183, 100%, 15%);
+}
+.item {
+  align-content: center;
+}
+
+.attribution {
+  font-size: 21px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#total,
+#perPerson {
+  font-size: 1.45rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .dashboard {
+    border-radius: 30px;
+    margin: 0;
+  }
+  .results {
+    flex: none;
+    margin: 2% 0 0 0;
+    border-radius: 30px;
+    background-color: hsl(183, 100%, 15%);
+  }
+  .input-field {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  button {
+    margin: 0% 6% 6% 6%;
+  }
+}
